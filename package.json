@@ -1,0 +1,16 @@
+{
+  "name": "konga",
+  "version": "1.0.0",
+  "description": "Konga Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run Qavdev-command",
+    "Qavdev-command": "npx cypress verify && npx cypress open"
+  },
+  "keywords": [],
+  "author": "John Chimezie",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}
